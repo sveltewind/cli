@@ -1,0 +1,30 @@
+{
+  "name": "@sveltewind/cli",
+  "version": "1.0.0",
+  "description": "A CLI for creating sveltewind projects",
+  "main": "src/index.js",
+  "bin": {
+    "sveltewind": "bin"
+  },
+  "publishConfig": {
+    "access": "public"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "cli",
+    "svelte",
+    "tailwind",
+    "tailwindcss",
+    "sveltewind"
+  ],
+  "author": "Bob McAleavey",
+  "license": "MIT",
+  "dependencies": {
+    "arg": "^5.0.1",
+    "async": "^3.2.3",
+    "esm": "^3.2.25",
+    "inquirer": "^8.2.0"
+  }
+}
